@@ -1,0 +1,21 @@
+void main(){
+  addTwonumbers();
+}
+addTwonumbers(){
+  int a = 20;
+  int b = 10;
+  int c = a + b;
+  print("the sum of a and b is $c");
+int d = a - b;
+print("The difference of a and b is $d");
+int e = a * b;
+print("The multiplication of a and b is $e");
+int f = a ~/ b;
+print("The division of a and b is $f");
+var str = "stringlenth";
+print(str);
+print("the length of string is ${str.length}");
+var str = "stringlenth";
+var list = str.split(" ");
+print(list);
+}
